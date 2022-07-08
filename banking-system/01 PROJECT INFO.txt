@@ -1,0 +1,13 @@
+*Banking app using Django
+
+**Developed By Unuefe Ejovwoke**
+
+**Instructions**
+- Install the Requirements: pip install -r requirements.txt
+- Install celery, rest framework and simple jwt for users oauth
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- And finally, run the application: python manage.py runserver
+
+For Admin Account, please create one with superuser!
+-winpty python manage.py createsuperuser
